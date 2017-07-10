@@ -4,8 +4,12 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.swp
+.jhw-cache
+.rbenv-version
 
 # Runtime data
+.DS_Store
 pids
 *.pid
 *.seed
@@ -30,11 +34,18 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
+public
 build/Release
+dist/
+dist/zepto.min.js
+dist/zepto.js
+temp/
 
 # Dependency directories
 node_modules/
 jspm_packages/
+pkg
+docs/*
 
 # Typescript v1 declaration files
 typings/
