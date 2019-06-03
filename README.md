@@ -206,7 +206,7 @@ This will submit a pull request to us that we can review.
 You will need to install [PhantomJS][]. On OS X, that's easy:
 
 ~~~ sh
-$ brew install phantomjs
+$ brew cask install phantomjs
 ~~~
 
 To run the automated tests:
