@@ -13,7 +13,7 @@ Instead please donate to [charity: water](http://charitywater.org/).
 
 ## Building
 
-[![Build Status](https://secure.travis-ci.org/madrobby/zepto.svg?branch=master)](http://travis-ci.org/madrobby/zepto)
+[![Build Status](https://travis-ci.org/ZeptoJS/Zepto.js.svg?branch=master)](https://travis-ci.org/ZeptoJS/Zepto.js)
 
 The official site offers a download of the default distribution of Zepto. This
 is good for starting out. However, at some point you might want to add some
