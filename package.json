@@ -8,12 +8,15 @@
         "dist": "coffee make dist",
         "start": "coffee test/server.coffee"
     },
-    "repository": "madrobby/zepto",
+    "repository": "ZeptoJS/Zepto.js",
     "license": "MIT",
     "devDependencies": {
-        "coffee-script": "1.5.x",
+        "coffeescript": "^2.4.1",
         "express": ">=3.11.0",
         "shelljs": "0.1.x",
         "uglify-js": ">=2.6.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0"
     }
 }
