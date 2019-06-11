@@ -1,6 +1,7 @@
 express = require 'express'
 app     = express()
 path    = require 'path'
+bodyParser = require 'body-parser'
 
 module.exports = app
 
@@ -9,7 +10,7 @@ app.use express.static(project_root)
 app.use express.static(project_root + 'node_modules/mocha')
 app.use express.static(project_root + 'node_modules/chai')
 
-app.use express.bodyParser()
+app.use bodyParser()
 
 mime = (req) ->
   type = req.headers['content-type'] or ''
